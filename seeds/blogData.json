@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Asynchronous JavaScript",
+        "content": "Asynchronous JavaScript allows executing code non-blockingly, enabling efficient handling of time-consuming tasks. Promises, async/await, and callback functions are commonly used to work with asynchronous operations in JavaScript.",
+        "user_id": 1
+      },
+      {
+        "title": "DOM Manipulation with JavaScript",
+        "content": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. JavaScript provides powerful methods and properties to manipulate the DOM dynamically, allowing developers to create interactive web pages.",
+        "user_id": 1
+      },
+      {
+        "title": "Introduction to React.js",
+        "content": "React.js is a popular JavaScript library for building user interfaces. It uses a component-based architecture, allowing developers to create reusable UI components and efficiently manage complex web applications.",
+        "user_id": 1
+      }
+]
