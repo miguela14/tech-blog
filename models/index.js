@@ -8,7 +8,7 @@ User.hasMany(Blog, {
     onDelete: 'CASCADE',
 });
 
-Blog.belonsTo(User, {
+Blog.belongsTo(User, {
     foreignKey: 'user_id'
 });
 
