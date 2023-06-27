@@ -15,11 +15,11 @@ const seedDatabase = async () => {
     for (const blog of blogData) {
         await Blog.create({
             ...blog,
-            user_id: users[math.floor(math.random() * users.length)].id,
+            user_id: users[Math.floor(Math.random() * users.length)].id,
         });
     }
 
     process.exit[0];
 };
 
-seedDatabase();
+module.exports = seedDatabase;
