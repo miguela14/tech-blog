@@ -1,0 +1,18 @@
+<!-- Loop over each object in the blogs array -->
+{{#each blogs as |blog| }}
+<div class="card p-1 my-2">
+    <div class="card-title">
+        <h2>
+            <a href="/blog/{{blog.id}}" class="text-decoration-none">{{blog.title}}</a>
+        </h2>
+    </div>
+    <div class="card-body">
+        <p>
+            {{blog.text}}
+        </p>
+    </div>
+    <div class="card-footer d-flex justify-content-around align-items-center flex-column">
+        <p>{{blog.user.name}} - {{format_date blog.date_created}}</p>
+    </div>
+</div>
+{{/each}}
