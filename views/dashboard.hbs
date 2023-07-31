@@ -23,11 +23,14 @@
         <h4 class="text-center">Your Blogs</h4>
     </div>
     <div class="row blog-list">
-        {{#each user.Blog}}
+        {{#each blog}}
         <div class="col-lg-4 col-md-6">
             <div class="card mb-4">
                 <h2 class="card-title m-1"><strong>{{title}}</strong></h2>
                 <p class="card-text m-1"><strong>{{text}}</strong></p>
+            </div>
+            <div class="card-footer">
+                    <button class="delete-event-btn btn btn-danger" data-id="{{id}}">Delete Blog</button>
             </div>
         </div>
         {{/each}}
@@ -35,3 +38,4 @@
 </div>
 
 <script src="./js/dashboard.js"></script>
+<script src="/js/blogHandler.js"></script>
